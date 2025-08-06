@@ -1,3 +1,16 @@
+# D means deposit while W means withdrawal.
+#
+# Suppose that the following file banking.txt is supplied to the program:
+#
+# D:300
+#
+# D:300
+#
+# W:500
+#
+# D:200
+#
+# Then, the output should be: 300
 with open(r'C:\Users\SagnikBhattacharya\Desktop\files\banking.txt') as f:
     l=f.readlines()
 #print(l)
